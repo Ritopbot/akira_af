@@ -133,6 +133,14 @@ body {
         padding-top: 20px;
     }
     &__img {
+        flex: 0 0 243px;
+        width: 243px;
+        height: 243px;
+        border-radius: 50%;
+        overflow: hidden;
+        img {
+            max-width: 100%;
+        }
         padding-bottom: 30px;
     }
     &__text {
